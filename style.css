@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+    color: rgb(11, 194, 255);
+    cursor: default;
+    font-weight: 500;
+}
+.navbar-brand:hover{
+    color: rgb(11, 194, 255);
+}
+body{
+ background-image: url("./pexels-pixabay-76969.jpg");
+/* background: linear-gradient(to bottom, #ebf4f5 0%, #2156a7 150%);*/
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 150vh;
+ 
+}
+
+
+#cityName{
+    color:rgb(11, 194, 255);
+}
+.heading{
+    font-size: 40px;
+    font-weight: 500;
+}
+ hr{
+    color: rgb(255, 255, 255);
+ }
+.blur{
+    width: 380px;
+    height: 280px;
+    background: rgba(255, 255, 255, 0.148);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 3%;
+
+    
+}
+.temperature{
+    font-size: 50px;
+    font-weight: 500;
+}
+.feels{
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 25px;
+    line-height: 37px;
+}
+
+#feels_like{
+    font-weight: 800;
+}
+.winds{
+    display: flex;
+    justify-content: center;
+}
+.wind{
+    width: 170px;
+    height: 140px;
+    background: rgba(255, 255, 255, 0.148);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    right: 1%;
+   
+
+}
+.wind h3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.wind h5{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+}
+.wind i{
+    font-size: 15px;
+}
+.humidity{
+        width: 170px;
+        height: 140px;
+        background: rgba(255, 255, 255, 0.148);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        right: 35%;
+        position: relative;
+}
+.humidity h3{
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    padding: 20px;
+}
+.humidity h5{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+}
+.humidity i{
+    font-size: 15px;
+}
+footer{
+    display: none;
+}
