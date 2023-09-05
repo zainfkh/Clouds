@@ -28,7 +28,7 @@ body{
 }
 .heading{
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 550;
 }
  hr{
     color: rgb(255, 255, 255);
@@ -118,4 +118,21 @@ body{
 }
 footer{
     display: none;
+}
+.max-min{
+    display: flex;
+    justify-content: space-around;
+}
+.max{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    color: white;
+}
+.max p{
+    font-size: 13px;
+    text-align: center;
+}
+.max span{
+    text-align: center;
 }
