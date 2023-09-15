@@ -155,6 +155,9 @@ body::-webkit-scrollbar {
     }
     .blur{
         width: 320px;
+        background: rgba(255, 255, 255, 0.148);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
     }
     #temp{
         font-size: 43px;
