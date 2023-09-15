@@ -136,3 +136,52 @@ footer{
 .max span{
     text-align: center;
 }
+body::-webkit-scrollbar {
+    width:8px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: white;
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: black;
+    outline: 1px solid black;
+  }
+  @media screen and (max-width:768px){
+    body{
+        height: 155vh;
+    }
+    .blur{
+        width: 320px;
+    }
+    #temp{
+        font-size: 43px;
+    }
+    .feels{
+        font-size: 22px;
+    }
+    small span{
+        font-size: 40px;
+    }
+    .heading{
+        font-size: 38px;
+    }
+    .humidity{
+        right: 3%;
+        width: 155px;
+        height: 135px;
+    }
+
+    .humidity h5{
+        font-size: 21px;
+    }
+    .wind{
+        width: 155px;
+        height: 135px;
+    }
+    .wind h5{
+        font-size: 21px;
+    }
+  }
